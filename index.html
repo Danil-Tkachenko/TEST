@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>тесты тегов</title>
+</head>
+<body>
+  <h1>тест тега pre</h1>
+  <pre>
+    стииииииииихххххххх
+    прррррррррррррррррр
+    ооооооооооооооооооо..........................................................
+    стиииииииииииииииииих
+  </pre>
+
+  <hr>
+
+  <p style="color:blue;">синие буквы</p>
+
+  <hr>
+
+  <p> выучть <mark>какое то маркирование</mark></p>
+
+  <hr>
+
+  <p><b>Минутка химии:</b> <i>H<sub>2</sub>O</i> </p>
+  <p> <strong>Валерьянка:</strong> CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>COOH </p>
+
+  <hr>
+
+  <p>Кошка <del>Дуся</del> Соня </p>
+  
+  <hr>
+
+  <p> тест <q>кавычек</q> </p>
+  <p> <abbr title="мяч">круг(всплывёт подсказка)</abbr></p>
+
+  <hr>
+
+  <p>Конфуций<blockquote cite="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%84%D1%83%D1%86%D0%B8%D0%B9">ЦИТАТА: 100 не 200</blockquote></p>
+            <!-- не разобрался для чего ссылка -->
+  <hr>
+  
+  <p><bdo dir="rtl">я напсисана слево направо</bdo></p>
+
+  <a href="index.html"title="Домашняя">Вернуться домой</a>
+
+  <hr>
+
+  <h2>пример таблицы</h2>
+  <table style="width:30%" border="1">
+    <tr>
+       <th colspan="2">Имя Фамилия</th>
+       
+       <th>Лет</th>
+    </tr>
+    <tr>
+       <td>Джилл</td>
+       <td>Смит</td>
+       <td>50</td>
+    </tr>
+     <tr>
+       <td>Ева</td>
+       <td>Джексон</td>
+       <td>94</td>
+     </tr>
+   </table>
+
+   <br>
+
+   <table border="2">
+    <caption>Имена</caption>
+    <tr> 
+      <th>Имя</th>
+      <th>Фамилия</th>
+      <th>Возраст</th>
+    </tr>
+       
+    <tr>
+      <td>Андрей</td>
+      <td>Щипунов</td>
+      <td>49</td>
+    </tr>
+   </table>
+
+   <br>
+
+   <table border="3">
+    <tr>
+      <th>Имя</th>
+      <td>Андрей Щипунов</td>
+    </tr>   
+    
+    <tr>     
+      <th rowspan="2">Телефон</th>
+      <td>+7(908)25-29-608</td>
+    </tr>
+    
+    <tr>     
+      <td>+7(908)25-29-608</td>
+   </tr> 
+  </table>
+
+  <hr>
+
+  <h2>Списки</h2>
+
+  <table>
+    <tr>
+      <th>Неупорядоченные</th>
+      <th>     Упорядоченные</th>
+      </tr>
+     <tr>
+       <td>
+          <ul>
+        <li>первый</li>
+        <li>второй</li>
+        <li>третий</li>
+        <li>четвертый</li>
+      </ul>
+    </td>
+    <td>
+      <ol>
+        <li>единица</li>
+        <li>двойка</li>
+        <li>тройка</li>
+        <li>четвёрка</li>
+      </ol>
+    </td>
+    </tr>
+  </table>
+
+    <br>
+
+    простой вариант
+
+    <ul>
+      <li>Кофе</li>
+      <li>Чай</li>
+      <li>Молоко</li>
+    </ul>  
+    
+    <ol type="A">
+      <li>Кофе</li>
+      <li>Чай</li>
+      <li>Молоко</li>
+    </ol> 
+
+    <ol type="I">
+      <li>Кофе</li>
+      <li>Чай</li>
+      <li>Молоко</li>
+    </ol>
+    
+
+    <hr>
+
+    <h2>Формы</h2>
+
+    <form> <input type="button" value="OK"> </form>
+
+    <br>
+
+    <form> <input type="radio" name="gender"value="male"> Мужчина <input type="radio" name="gender"value="female"> Женщина </form>
+
+    <br>
+
+    <form action="/action_page.php"> Имя: <input type="text" name="name"> <input type="submit"> </form>
+
+    <hr>
+
+    <h2>Элементы ввода</h2>
+
+    <form action="../action_page.php">
+      Введите свое имя:
+      <input name="firstname" type="text">
+      <br><br>
+      <input type="submit">
+    </form>
+
+    <hr>
+
+    <br><br>
+
+    <select name="banks" id="banks">
+      <option value="sber">сбер</option>
+      <option value="vtb">втб</option>
+      <option value="alpha">альфа</option>
+      <option value="tinkoff" selected>тиньков</option> 
+      <!-- selected ставит название по умолчанию -->
+    </select>
+
+
+    <br><br><br>
+
+    <select name="banks" id="banks" size="2">
+      <option value="sber">сбер</option>
+      <option value="vtb">втб</option>
+      <option value="alpha">альфа</option>
+      <option value="tinkoff" selected>тиньков</option> 
+      <!-- selected ставит название по умолчанию -->
+    </select>
+
+    <br><br><br>
+
+    <select name="banks" id="banks" size="3" multiple>
+      <option value="sber">сбер</option>
+      <option value="vtb">втб</option>
+      <option value="alpha">альфа</option>
+      <option value="tinkoff" selected>тиньков</option> 
+      <!-- selected ставит название по умолчанию -->
+    </select>
+
+    <p>удерживать ctrl чтобы выбрать несколько вариантов</p>
+
+    <hr>
+
+    <form action="/action_page.php">
+      <textarea name="message" id="message" cols="17" rows="3">текст который можно стереть</textarea>
+      <input type="submit" value="ЛЕТИ ПИСЬМО">
+    </form>
+
+    <hr>
+
+    <h2>Тип ввода "button"</h2>
+
+    <button type="button" onclick="alert('Привет!')">Тут кое что спрятано</button>
+
+    <hr>
+
+    <br>
+
+    <fieldset>
+      <legend>Мои данные</legend>
+      <label for="fname">Имя:</label><br>
+      <input type="text" id="fname" name="fname" value="Данил"><br>
+      <label for="lname">Фамилия</label><br>
+      <input type="text" id="lname" name="lname" value="Ткаченко"><br>
+      <input type="submit" value="Отправить">
+     </fieldset>
+
+     <hr>
+
+     <br>
+
+     <form action="/action_page.php">
+      <input list="browsers" name="browsers">
+      <datalist id="browsers">
+        <option value="123">123</option>
+        <option value="1234">1234</option>
+        <option value="123456">123456</option>
+      </datalist>
+      <input type="submit">
+     </form>
+<!-- Почему то не работает -->
+     <br><br>
+
+
+     <form action="/action_page.php">
+      <input list="browsers" name="browser">
+      <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+      <input type="submit">
+    </form>
+
+    <hr>
+
+    <br>
+    <h2>Типы ввода</h2>
+
+    <br>
+
+    <h3>Тип ввода текст "reset"</h3>
+
+    <form action="">
+      <label for="fname">Имя</label><br>
+      <input type="text" id="fname" name="fname" value="Данил"><br>
+      <label for="lname">Фамилия</label><br>
+      <input type="text" id="lname" name="lname" value="Ткаченко"><br>
+      <input type="submit">
+      <input type="reset">
+    </form>
+
+    <h3>Тип ввода "password"</h3>
+
+      <form action="">
+      <label for="username">Имя пользователя:</label><br>
+      <input type="text" id="username" name="username"><br>
+      <label for="pwd">Пароль</label><br>
+      <input type="password" id="pwd" name="pwd"><br>
+    </form>
+
+    <h3>Тип ввода "checkbox"</h3>
+    <form action="">
+      <input type="checkbox" id="check1" name="check1" value="school">
+      <label for="check1">Я хожу в школу</label><br>
+      <input type="checkbox" id="check2" name="check2" value="baby">
+      <label for="check2">Я хожу в сад</label><br>
+      <input type="checkbox" id="check3" name="check3" value="instityt">
+      <label for="check3">Я хожу в инстиут</label><br>
+    </form>
+
+    <h3>Тип ввода "color"</h3>
+    <form action="">
+      <label for="favcolor">выбрать цвет</label>
+      <input type="color" id="favcolor" name="favcolor">
+    </form>
+
+    <h3>Тип ввода "date"</h3>
+    <form action="">
+      <label for="birthday">День Рождения</label>
+      <input type="date" id="birthday" name="birthday" max="2000-09-26" value="2000-09-25">
+    </form>
+
+    <h3>Тип ввода "email"</h3>
+    <form action="">
+      <label for="email">Введите почту:</label>
+      <input type="email" id="email" name="email">
+    </form>
+    
+    <h3>Тив ввода number</h3>
+    <form action="">
+      <label for="number">Выберите число</label>
+      <input type="number" id="number" name="number" min="1" max="10"><br>
+    </form>
+
+    <h3>Загрузить файл</h3>
+    <form action="">
+      <label for="files">загрузите файл</label>
+      <input type="file" id="files" name="files" multiple>
+    </form>
+
+    
+
+</body>
+</html>
